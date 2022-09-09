@@ -1,0 +1,92 @@
+def soma(num1 , num2):
+    return print('A soma é igual a' , (num1 + num2))
+
+
+def div(num1, num2):
+    return print('A divisão dos valores é igual a' , (num1 / num2))
+
+
+def multi(num1, num2):
+    return print('A multilicação é igual a' , (num1 * num2))
+
+def sub(num1, num2):
+    return print('A subtração é igual a' , (num1 - num2))
+
+
+
+escolha = int(input('''
+
+__________________________
+Qual operação você deseja?
+
+      1 - adição
+      2 - subtração 
+      3 - multiplicação
+      4 - divisão
+               
+Sua escolha: '''))
+
+if ( escolha == 1):
+    
+    n1 = float(input('''
+    Certo!
+    Qual núemero você deseja?               
+    R:   '''))
+
+    n2 = float(input('''
+    Perfeito!
+    Próximo número
+    R: '''))
+    
+    soma(n1, n2)
+    
+
+if ( escolha == 2):
+    
+    n1 = float(input('''
+    Certo!
+    Qual núemero você deseja?               
+    R:   '''))
+
+    n2 = float(input('''
+    Perfeito!
+    Próximo número
+    R: '''))
+    
+    sub(n1, n2)
+    
+    
+    
+if ( escolha == 3):
+    
+    n1 = float(input('''
+    Certo!
+    Qual núemero você deseja?               
+    R:   '''))
+
+    n2 = float(input('''
+    Perfeito!
+    Próximo número
+    R: '''))
+    
+    multi(n1, n2)    
+    
+    
+if ( escolha == 4):
+    
+    n1 = float(input('''
+    Certo!
+    Qual núemero você deseja?               
+    R:   '''))
+
+    n2 = float(input('''
+    Perfeito!
+    Próximo número
+    R: '''))
+    
+    div(n1, n2)    
+    
+    
+else:
+    print('Escolha incompativel com as opções!')    
+    

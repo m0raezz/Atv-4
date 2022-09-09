@@ -1,21 +1,23 @@
+#Função de soma
 def soma(num1 , num2):
     return print('A soma é igual a' , (num1 + num2))
 
-
+#Função de divisão
 def div(num1, num2):
     return print('A divisão dos valores é igual a' , (num1 / num2))
 
-
+#Função de multiplicação
 def multi(num1, num2):
     return print('A multilicação é igual a' , (num1 * num2))
 
+#Função de subtração
 def sub(num1, num2):
     return print('A subtração é igual a' , (num1 - num2))
 
 
 
 
-
+#Coleta dos números
 n1 = float(input('''
 
 Qual núemero você deseja?               
@@ -26,6 +28,7 @@ Perfeito!
 Próximo número
 R: '''))
 
+#Escolha da operação
 escolha = int(input('''
 __________________________
 Qual operação você deseja?
